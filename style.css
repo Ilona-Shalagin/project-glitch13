@@ -1,0 +1,53 @@
+body{
+    background-image: url(https://cdn.glitch.me/b2bab2cc-491a-4a2d-b965-8c5ee290a4b1%2Fdream2.jpeg?v=1634485987754);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-color: #fff;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+#btn{
+    position: fixed;
+    border-radius: 40px;
+    padding:10px;
+    font-size: 40px;
+    border: 2px solid #FA8072;
+    font-family: 'Dancing Script', cursive;
+}
+ #par{
+    display: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    background-color: #fff;
+    border:3px solid #FA8072;
+    border-radius: 30px;
+    width:80%;
+    text-align: center;
+    margin-top: 400px;
+    padding:10px;
+    font-weight: bold;
+ }
+
+ @media all and ( max-width: 800px ) {
+     #btn{
+         font-size: 35px;
+     }
+     #par{
+         font-size:25px;
+     }
+ }
+
+ @media all and ( max-width: 500px ) {
+     #btn{
+         font-size:25px;
+     }
+     #par{
+         font-size: 20px;
+     }
+ }
+ 
